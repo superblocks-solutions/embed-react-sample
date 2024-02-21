@@ -37,3 +37,7 @@ This compiles and serves the React app and starts the backend API server on port
 ```bash
 npm run dev
 ```
+
+## Start Embedding
+
+Go to the [Superblocks docs](https://docs-git-embedded-app-beta-superblocks.vercel.app/applications/embedded-apps/) to learn how to embed a Superblocks App into the app.
