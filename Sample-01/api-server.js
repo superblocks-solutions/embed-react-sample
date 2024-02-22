@@ -1,5 +1,5 @@
 const express = require("express");
-import requests = require("requests");
+const requests = require("requests");
 const cors = require("cors");
 const morgan = require("morgan");
 const helmet = require("helmet");
