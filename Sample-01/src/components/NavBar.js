@@ -55,16 +55,6 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  tag={RouterNavLink}
-                  to="/superblocks"
-                  exact
-                  activeClassName="router-link-exact-active"
-                >
-                  Superblocks
-                </NavLink>
-                </NavItem>
               {isAuthenticated && (<></>)}
             </Nav>
             <Nav className="d-none d-md-block" navbar>
