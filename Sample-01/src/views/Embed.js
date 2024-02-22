@@ -1,11 +1,14 @@
 import React, { Fragment } from "react";
 
-const Embed = () => (
-  <Fragment>
-    <div className="text-center hero my-5">
+const Embed = () => {
+
+  return (
+    <Fragment>
       <h1 className="mb-4">Embed your App here</h1>
-    </div>
-  </Fragment>
-);
+
+
+    </Fragment>
+  );
+};
 
 export default Embed;

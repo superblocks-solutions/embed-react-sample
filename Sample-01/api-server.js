@@ -1,4 +1,5 @@
 const express = require("express");
+import requests = require("requests");
 const cors = require("cors");
 const morgan = require("morgan");
 const helmet = require("helmet");
@@ -37,6 +38,11 @@ app.get("/api/external", checkJwt, (req, res) => {
   res.send({
     msg: "Your access token was successfully validated!",
   });
+});
+
+app.get("/api/sbtoken", (req, res) => {
+  // Get your superblocks auth token
+
 });
 
 app.listen(port, () => console.log(`API Server listening on port ${port}`));

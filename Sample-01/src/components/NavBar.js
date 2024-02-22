@@ -65,18 +65,7 @@ const NavBar = () => {
                   Superblocks
                 </NavLink>
                 </NavItem>
-              {isAuthenticated && (<>
-                <NavItem>
-                  <NavLink
-                    tag={RouterNavLink}
-                    to="/external-api"
-                    exact
-                    activeClassName="router-link-exact-active"
-                  >
-                    External API
-                  </NavLink>
-                </NavItem>
-              </>)}
+              {isAuthenticated && (<></>)}
             </Nav>
             <Nav className="d-none d-md-block" navbar>
               {!isAuthenticated && (

@@ -36,13 +36,12 @@ const App = () => {
         <NavBar />
         <Container className="flex-grow-1 mt-5">
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/" exact component={Embed} />
             <Route path="/superblocks" exact component={Embed} />
             <Route path="/profile" component={Profile} />
             <Route path="/external-api" component={ExternalApi} />
           </Switch>
         </Container>
-        <Footer />
       </div>
     </Router>
   );
