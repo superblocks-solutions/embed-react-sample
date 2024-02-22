@@ -1,5 +1,4 @@
 const express = require("express");
-const requests = require("requests");
 const cors = require("cors");
 const morgan = require("morgan");
 const helmet = require("helmet");
@@ -41,7 +40,12 @@ app.get("/api/external", checkJwt, (req, res) => {
 });
 
 app.get("/api/sbtoken", (req, res) => {
-  // Get your superblocks auth token
+  // Get a user token from Superblocks.
+
+  // fetch(URL, options).then(res => {
+  //   console.log('Do something')
+  //   res.json({ 'data': 'some data' }) 
+  // })
 
 });
 
