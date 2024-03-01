@@ -2,8 +2,6 @@
 
 This sample demonstrates the integration of [Superblocks Embed React SDK](https://github.com/superblocksteam/embed-react) into a React application created using [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html).
 
-The sample is a companion to the [Auth0 React SDK Quickstart](https://auth0.com/docs/quickstart/spa/react).
-
 ## Project setup
 
 Use `npm` to install the project dependencies:
