@@ -12,22 +12,6 @@ Use `npm` to install the project dependencies:
 npm install
 ```
 
-## Configuration
-
-### Configure credentials
-
-The project needs to be configured with an Auth0 domain and client ID in order for the authentication flow to work.
-
-To do this, first copy `src/auth_config.json.example` into a new file in the same folder called `src/auth_config.json`, and replace the values with Auth0 application credentials provided by Kris.
-
-```json
-{
-  "domain": "{PROVIDED AUTH0 DOMAIN}",
-  "clientId": "{PROVIDED AUTH0 CLIENT ID}",
-  "audience": "{PROVIDED AUTH0 API_IDENTIFIER}",
-}
-```
-
 ## Run the sample
 
 ### Compile and hot-reload for development
